@@ -1,0 +1,151 @@
+body {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 200em;
+    background: rgba(0, 0, 0, 0.925);
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    background: #403F4C;
+    margin: 0%;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    background: #403F4C;
+    text-decoration: none;
+    float: left;
+}
+
+/* Change the link color on hover */
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.icon {
+    float: right;
+}
+
+.img-circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 0px solid #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1#title {
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+header {
+    margin-top: -27px;
+    background-color: rgb(0, 0, 0);
+}
+
+div#GM {
+    padding: 7%;
+}
+
+div#quien {
+    padding: 7%;
+}
+
+div#stu {
+    padding: 7%;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Book'), url('GothamBook.woff') format('woff');
+}
+
+div#spo {
+    font-family: 'Gotham Book';
+    width: 250px;
+    background: #000000;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.img-circle-1 {
+    
+    padding: 3%;
+    padding-top: 5%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 0px solid #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2#spo {
+    margin-left: 35%;
+    font-family: 'Gotham Book';
+}
+
+button#spo {
+    margin-left: 9%;
+    background-color: #4CAF50;
+    border: none;
+    width: 200px;
+    height: 35px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+h2#sp {
+    
+    font-family: 'Gotham Book';
+    margin-top: -0.1px;
+    color: #fff;
+}
+div#spo1 {
+  
+  font-family: 'Gotham Book';
+  width: 250px;
+  background: #000000;
+  border-radius: 10px;
+  height: 350px;
+  margin-top: -30.2%;
+  border-color: #fff;
+  margin-left: 60%;
+  
+}
+div#spo2 {
+  font-family: 'Gotham Book';
+  width: 250px;
+  background: #000000;
+  border-radius: 10px;
+  height: 350px;
+  margin-top: -30.2%;
+  margin-left: 30%;
+  
+}
