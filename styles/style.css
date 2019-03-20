@@ -7,8 +7,7 @@ body {
 }
 
 .navbar {
-    width: 100%;
-    background: #403F4C;
+    background: rgb(35, 34, 41);
     margin: 0%;
     position: -webkit-sticky;
     /* Safari */
@@ -27,7 +26,7 @@ li a {
     display: block;
     color: rgb(255, 255, 255);
     padding: 14px 16px;
-    background: #403F4C;
+    background: rgb(35, 34, 41);
     text-decoration: none;
     float: left;
 }
@@ -63,6 +62,7 @@ h1#title {
 header {
     margin-top: -27px;
     background-color: rgb(0, 0, 0);
+    
 }
 
 div#GM {
@@ -72,8 +72,13 @@ div#GM {
 div#quien {
     padding: 7%;
 }
-
+div#hobi {
+  padding: 7%;
+}
 div#stu {
+    padding: 7%;
+}
+div#Ani {
     padding: 7%;
 }
 
@@ -90,6 +95,7 @@ div#spo {
     background: #000000;
     border-radius: 10px;
     height: 350px;
+    margin-left: 30px;
 }
 
 .img-circle-1 {
@@ -127,25 +133,40 @@ h2#sp {
     margin-top: -0.1px;
     color: #fff;
 }
-div#spo1 {
-  
-  font-family: 'Gotham Book';
-  width: 250px;
-  background: #000000;
-  border-radius: 10px;
-  height: 350px;
-  margin-top: -30.2%;
-  border-color: #fff;
-  margin-left: 60%;
-  
+
+h2#spo1 {
+    margin-left: 17%;
+    font-family: 'Gotham Book';
 }
-div#spo2 {
-  font-family: 'Gotham Book';
-  width: 250px;
-  background: #000000;
-  border-radius: 10px;
-  height: 350px;
-  margin-top: -30.2%;
-  margin-left: 30%;
-  
+h2#spo2 {
+    margin-left: 7.5%;
+    font-family: 'Gotham Book';
 }
+.image{
+    width: 90%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
